@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+  font-family: arial;
+}
+h1, h2 {
+  color: white;
+  padding: 0.5%
+}
+p {
+  color: white;
+  padding: 0.5%
+}
+
+#logo {
+  max-width: 20%;
+  height: auto;
+}
+
+#bass { 
+ max-width: 30%;
+ height: auto;
+ float: right;
+ padding: 2%;
+} 
+#certified { 
+ max-width: 15%;
+ height: auto;
+ float: right;
+ padding: 2%;
+}
+
+#horse { 
+ max-width: 30%;
+ height: auto;
+ float: right;
+
+
+} 
+
+#usphoto {
+	max-width: 50%;
+	height: auto;
+	}
+
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: grey;
+}
+
+a:active {
+  color: white;
+}
