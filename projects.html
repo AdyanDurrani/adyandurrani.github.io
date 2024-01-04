@@ -15,8 +15,9 @@
 
 <h2><a href="index.html">Home</a></h2>
 
+ <h3>><a href="#roboto">Robotic finger thingy?</a>  &ensp;<a href="#SR">Set release latch using transistors</a>  &ensp;<a href="#555">Adyan VS 555 timers</a></h3>
 
- <h2>Robotic finger thingy?</h2>
+ <h2 id="roboto">Robotic finger thingy?</h2>
 <p> 30/09/23: From the depths of my brain I finally remembered that I thought of this, it’s been a thought for months, 
 but now is the time! Not entirely sure on how to describe what this is but I’ll try. It’s a skinny piece of  card on the
  end of a cardboard tube, the card thing can kinda bend like a finger due to a string attached to the top of it which goes 
@@ -43,6 +44,7 @@ write some code on my arduino UNO rev 3, I bought it a few months ago and I thin
 sellect how much the servo should rotate: 0, 90 or 180 degrees.<br>
 All wired up now and all the code has been written... YIPEE it works!!! <a href = "https://imgur.com/a/QC5Y7gZ" target="_blank">Here</a> is a photo of the final project so far until my distance sensor comes. But for now we are done!
 </p>
+    
 <p>
 13/10/23: Ultrasonic distance sensor has arrived!!! Lets put it together!<br>
 So for this I think im going to add a button to togle between using the distance sensor and using the three preset buttons, just for a little bit of fun. Okay all built, now to add to the code. Oh wait how do I even use this sensor thingy?? 
@@ -54,7 +56,7 @@ in C++ (dont mind the names of some of the variables... It helps me remember the
 </p>
 
 
-<h2>Set release latch using transistors</h2>
+<h2 id="SR">Set release latch using transistors</h2>
 <p> 03/10/23: I have decided to start this project to test out how transistors work. I drew up a sketch of the S-R latch using
 logic gates(<a href="https://imgur.com/u0iN2nV"target="_blank">here</a>).
 <br>Now I've drawn out each individual logic gate using transistors (<a href="https://imgur.com/N66Gxan"target="_blank">here</a>)... Not entirely sure how to connect them together yet but we'll get there.<br />
@@ -67,5 +69,19 @@ but we must move and conintue until the end!!<br /> Okay, so. The problem. I've 
 7/10/23: After doing lots and I mean lots of school work I think I’ve finally found time to try to fix my problem today<br> Oh ok cool. There’s another way 
 to draw out an S-R latch using logic gates.<br> here we go: an S-R latch using NOR gates (<a href="https://imgur.com/3DJVEIZ"target="_blank">here</a>). I’ve shoved all my electronics part into a corner somewhere to “clean” my desk but I’ll try
  to put it together physically tomorrow (or whenever I have time) </p>
- 
+
+<h2 id="555"> Adyan VS 555 timers</h2>
+ <p> 03/01/24: I just recently rememberd that i orded a few 555 timers from ebay like 3 months ago and they've just been sitting in a drawer for a while. But today i have decided to venture into the world of ICs starting with the most common one, the 555 timer.
+  <br>
+  So I've printed out some of the data sheet while watching a youtube video explaing how the timer worked. Aperrently theyve got 3 opperating modes: Astable, monostable and bistable. Astable not requiring a trigger, monostable requiring only a single trigger input 
+  to send a signal and bistable requiring 2 trigger inputs, one to activate and one to deactivate. Pretty cool.
+  <br>
+     So I've found a good looking circut diagram for the astable mode to base my project (Thank you DroneBot Workshop on Youtube). now time to actually build it!
+     <br>
+     :^/ nothing ever works the first time you do it. Whats the problem here?.. Oh pin 1 just isnt grounded. It should work now.
+     <br>
+     YAY! the LED is turning on and off! Awesome, this is soo cool! <a href="https://imgur.com/a/18DDRWg" target="_blank">Here is a video of it</a> (working on the floor because my brother was using my desk :/ )
+     
+  </p>
+  
 </body>
